@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "libc-header-start.h": "c",
+        "xshm.h": "c",
+        "typeinfo": "c",
+        "limits": "c"
+    }
+}
