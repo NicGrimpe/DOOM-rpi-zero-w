@@ -4,10 +4,11 @@
 #
 # $Log:$
 #
-CC=  gcc  # gcc or g++
+#CC=  gcc  # gcc or g++
+CC = /home/nicGrimpe/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/bin/arm-raspbian-linux-gnueabihf-gcc
 
 CFLAGS=-g -Wall -DNORMALUNIX -DLINUX # -DUSEASM 
-LDFLAGS=-L/usr/X11R6/lib
+LDFLAGS=-L/home/nicGrimpe/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/arm-raspbian-linux-gnueabihf/sysroot/usr/include/X11
 LIBS=-lXext -lX11 -lnsl -lm
 
 # subdirectory for objects
